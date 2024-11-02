@@ -36,6 +36,7 @@ h4{
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .container{
     width: 100%;
@@ -50,7 +51,8 @@ h4{
 }
 .image-item{
     background-image: url("images/image-product-mobile.jpg");
-    width: 70%;
+    width: 95%;
+    box-sizing: border-box;
     margin:10px 10px 0px 10px;
     background-position: center;
     background-size: cover;
@@ -58,7 +60,7 @@ h4{
     border-top-right-radius: 10px;
 }
 .text-item{
-    width: 67.3%;
+    width: 95%;
     margin:0px 10px 30px 10px;
     background-color:white;
     padding-left:10px;
@@ -78,9 +80,8 @@ img{
     margin-left: 70px;
 }
 .button-cont{
-
     padding: 10px 0px;
-    width: 240px;
+    width: 320px;
     text-align: center;
     display: flex;
     background-color: hsl(158, 36%, 37%); 
